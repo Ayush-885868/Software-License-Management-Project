@@ -1,0 +1,32 @@
+.formbox{
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    margin-left: 430px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    border-color:transparent;
+  }
+  h4{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+  }
+  button{
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+    color:white;
+    
+  }
+  #firstBtn{
+    margin-top: 50px;
+    
+    }
+    Link{
+      color:white;
+      text-decoration: none;
+    }

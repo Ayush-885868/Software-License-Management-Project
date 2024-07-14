@@ -1,0 +1,11 @@
+.login{
+    /*height:1600px;*/
+    padding: 100px;
+    margin-top: 250px;
+    width:450px;
+    border-radius:50px;
+    color: rgb(0, 0, 0);
+}
+.error{
+    color:red;
+}

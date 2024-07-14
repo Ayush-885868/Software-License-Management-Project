@@ -1,0 +1,99 @@
+.Maincontainer{
+    display:flex;
+    max-width: 1300px;
+    margin: 2px auto;
+    justify-content:start;
+}
+
+/***.col-1 {
+  flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
+  /****flex-basis: 80%; /* sets initial width to 70% */
+ /* }*/
+
+
+.box {
+  /*background-color: rgb(254, 254, 254);*/
+  padding: 1px;
+  border-radius: 10px;
+  /**border: 2px solid rgb(116, 113, 113);*/
+  /*margin: 0.5rem;
+  box-shadow: 1px 1px 1px #000;*/
+  text-align: left;
+  
+  
+}
+.Autofill{
+  padding: 3px;
+  margin-left: 1rem;
+  line-height: 10vw;
+  border: 0;
+  /**border: 2px solid rgb(116, 113, 113);*/
+  /*background-color: rgb(255, 255, 255);*/
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .Maincontainer {
+      /* it place the items in vertical direction */
+    flex-direction: row;
+  }
+
+  .box {
+    margin: 0 0 1rem;
+  }
+}
+
+#box2{
+  width:18%;
+  justify-content:center;
+  align-items: center;
+ /** margin-left: 5px;
+  padding: 30px;*/
+  /*height: 340px;*/
+  
+}
+
+#box1{
+  width: 70%;
+  /**padding-left: 10px;
+  margin-right: 2rem;*/
+  
+}
+
+@media only screen and (max-width: 900px){
+  box1 {
+      /* it place the items in vertical direction */
+    flex-direction: row;
+  }
+  .bttn {
+    width:60px;
+    
+  }
+}
+  @media only screen and (min-width: 890px) {
+       .bttn {
+         width:200px;
+         
+       }
+      }
+
+  .bttn{
+      /*justify-content: center;*/
+     /* margin-left: 30%;*/
+     /** border-radius: 5px;
+      /*padding: 1rem;*/
+      width:135%;
+      height: 60px;
+      margin-left:-26px;
+      
+  }
+  .btnd{
+    width: 55px;
+    height: 28px;
+    margin-top: 2px ;
+  }
+
+
+
+
+  

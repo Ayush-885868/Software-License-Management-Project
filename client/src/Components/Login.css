@@ -1,0 +1,16 @@
+.login{
+    width:400px;
+   /* height: 200px;*/
+   
+    padding: 30px;
+    /*height:min-content;*/
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(238, 241, 243);
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-bottom: 0%;
+}
+.error{
+    color:red;
+}

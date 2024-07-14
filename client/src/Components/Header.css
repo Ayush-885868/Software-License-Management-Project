@@ -1,0 +1,45 @@
+img{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+  
+  }
+  #gail_logo{
+    width: 92px;
+    height:35px ;
+    margin-left:5rem ;
+    
+  } 
+  
+  .g20{
+    float: right;
+    margin-right: 10px;
+    width: 85px;
+    height:35px ;
+  
+  }
+  /*.azadi{
+   /* float: inline-end;*/
+    /*width: 85px;
+    height:35px ;
+    
+  }*/
+ /* .line{
+    background-color: rgb(46, 140, 223);
+    height: 5px;
+    margin-top: 20px;
+    --bs-gutter-x:0rem;
+  }*/
+  .head{
+    width:1100px;
+    /*width:100%;*/
+    height: 80px;
+    /*margin-left: -10px;*/
+    box-sizing:content-box;
+   
+    
+    
+  }
+  
+  
+  

@@ -1,0 +1,173 @@
+
+
+.containerr {
+  display: flex;
+  /*max-width: 1200px;*/
+  width: 1148px;
+
+  /*justify-content:start;*/
+}
+
+.col-1 {
+  flex-shrink: 0;
+  /* shrinks to 0 to apply 70% width*/
+  flex-basis: 82%;
+  /* sets initial width to 70% */
+}
+
+
+.box {
+  /*background-color: rgb(254, 254, 254);*/
+  padding: 2px;
+  border-radius: 10px;
+  border: 2px solid rgb(116, 113, 113);
+  margin: 0.2rem;
+  /*box-shadow: 1px 1px 1px #000;*/
+  text-align: left;
+
+
+
+
+}
+
+.Autofill {
+  padding: 3px;
+  margin-left: 1rem;
+  line-height: 10vw;
+  border: 2px solid rgb(116, 113, 113);
+  /*background-color: rgb(255, 255, 255);*/
+
+}
+
+
+
+#box2 {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  /*margin-left: 2px;*/
+  padding-left: 4px;
+  padding-right: 4px;
+  
+}
+
+#box1 {
+  width: 80%;
+  padding-left: 10px;
+
+
+  /*margin-left: 1rem;*/
+
+}
+
+.InputField {
+  margin-top: 10px;
+  width: 70%;
+}
+
+
+
+
+#bttn {
+  justify-content: center;
+  margin-left: 30%;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 150px;
+}
+
+
+
+
+
+
+#SoftName {
+  margin-top: 0.1rem;
+  width: 310px;
+}
+
+
+#hostname {
+  width: 310px;
+  
+}
+
+#pur {
+  width: 310px;
+  
+}
+
+
+#Remark {
+  width: 310px;
+  margin-left: 3px;
+
+}
+
+#bttn {
+  /*text-align: center;
+  margin-left: 300px;*/
+  width: 310px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 250px;
+  /*color: rgb(255, 255, 255);*/
+}
+
+#bttnLast {
+  width: 310px;
+  text-align: center;
+  align-items: center;
+  margin-left: 250px;
+}
+
+
+.dropDownList {
+  width: 250px;
+  margin-left: 115px;
+  height: 45px;
+
+  background-color: #F0F0F0;
+}
+
+#host{
+  width: 310px;
+  margin-left: 168px;
+
+}
+#pose{
+  width: 310px;
+  margin-left: 168px;
+}
+#select{
+  width:310px;
+  margin-left: 110px;
+  height: 55px;
+  border: 1px solid black;
+}
+#auth{
+  border: 1px solid black;
+}
+
+/* Add this CSS to your User.css file or your styling file */
+.deleteButton {
+  background-color: #dc3545; /* Red background color */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  padding: 8px 16px; /* Padding around the text */
+  text-align: center; /* Center-align the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as inline-block */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Add hover effect */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+  width: '60px';
+}
+
+.deleteButton:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+
+
+
